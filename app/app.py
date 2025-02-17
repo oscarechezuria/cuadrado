@@ -16,6 +16,6 @@ def whatsapp_reply():
         response.message("Lo siento, este no es un mensaje valido")
 
 if __name__ =="__main__":
-    app.run(port=500, debug=True)
+    app.run(port='0.0.0.0', debug=True)
 
 
